@@ -1,0 +1,18 @@
+    1  git diff head
+    2  git status
+    3  git push production master
+    4  git push origin master
+    5  git push staging master
+    6  heroku console
+    7  heroku logs -t
+    8  heroku ps
+    9  git merge master
+   10  git add .
+   11  bundle install
+   12  rake db:migrate
+   13  ls -la
+   14  script/rails c
+   15  git stash pop
+   16  ps aux
+   17  p s this command already exists
+   18  g d this alias already exists
