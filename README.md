@@ -6,7 +6,7 @@ With the recent popularity of [heroku-fucking-console](https://github.com/tpope/
 
 Take a moment to set aliases.  Your fingers will thank you.
 
-### What commands should I alias?
+### Which commands should I alias?
 
 ```sh
 history | ruby -e "$(curl -fsSL https://raw.github.com/ankane/alias/master/alias.rb)"
