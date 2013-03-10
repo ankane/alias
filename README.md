@@ -43,4 +43,6 @@ alias gp="git push"
 history | ruby -e "$(curl -fsSL https://raw.github.com/ankane/alias/master/alias.rb)"
 ```
 
+[View source](https://github.com/ankane/alias/blob/master/alias.rb)
+
 Note: This does not take into account current aliases
