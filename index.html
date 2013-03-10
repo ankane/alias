@@ -32,16 +32,7 @@
 
 <p>The Unix gods created this simple command that I always forget to use.</p>
 
-<p>With the recent popularity of <a href="https://github.com/tpope/heroku-fucking-console">heroku-fucking-console</a>, it seems that others forget it as well.</p>
-
-<p>Take a moment to set aliases.  Your fingers will thank you.</p>
-
-<h3>Which commands should I alias?</h3>
-
-<div class="highlight"><pre><span class="nb">history</span> | ruby -e <span class="s2">"$(curl -fsSL https://raw.github.com/ankane/alias/master/alias.rb)"</span>
-</pre></div>
-
-<p>Note: This does not take into account current aliases (if someone knows how to do this, let me know)</p>
+<p>With the recent popularity of <a href="https://github.com/tpope/heroku-fucking-console">heroku-fucking-console</a>, it seems others forget it as well.  Take a moment to set aliases.  Your fingers will thank you.</p>
 
 <h3>What is an alias?</h3>
 
@@ -65,11 +56,18 @@
 <div class="highlight"><pre>gp
 </pre></div>
 
-<p>Meet aliases!  Add this to <code>~/.bash_profile</code> (or <code>~/.zshrc</code> if zsh is your thing)</p>
+<p>Just add this to <code>~/.bash_profile</code> (or <code>~/.zshrc</code> if zsh is your thing)</p>
 
 <div class="highlight"><pre><span class="nb">alias </span><span class="nv">hc</span><span class="o">=</span><span class="s2">"heroku run console"</span>
 <span class="nb">alias </span><span class="nv">gp</span><span class="o">=</span><span class="s2">"git push"</span>
 </pre></div>
+
+<h3>Which commands should I alias?</h3>
+
+<div class="highlight"><pre><span class="nb">history</span> | ruby -e <span class="s2">"$(curl -fsSL https://raw.github.com/ankane/alias/master/alias.rb)"</span>
+</pre></div>
+
+<p>Note: This does not take into account current aliases</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/ankane">ankane</a></p>
