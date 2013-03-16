@@ -46,3 +46,5 @@ history | ruby -e "$(curl -fsSL https://raw.github.com/ankane/alias/master/alias
 [View source](https://github.com/ankane/alias/blob/master/alias.rb)
 
 Note: This does not take into account current aliases
+
+For a deeper look at your command history, check out the awesome [Huffshell](https://github.com/paulmars/huffshell)
